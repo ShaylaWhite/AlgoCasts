@@ -9,22 +9,24 @@
 
 function palindrome(str) {
 
-    let reversed = ' ';
+    const reversed = str.split('').reverse().join('');
 
-    for (let character of str) {
-        reversed = character + reversed;
+    // for (let character of str) {
+    //     reversed = character + reversed;
 
-        if (reversed === str)
+    //     if (reversed === str)
 
-        return true;
+    //     return true;
 
-        else ( reversed !== str)
+    //     else ( reversed !== str)
 
-        return false;
+    //     return false;
 
-    }
+    // }
 
-    reversed();
+    return str === reversed;
+
+    
 
 }
 
