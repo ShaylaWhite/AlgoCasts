@@ -7,6 +7,41 @@
 //   palindrome("abba") === true
 //   palindrome("abcdefg") === false
 
-function palindrome(str) {}
+function palindrome(str) {
+
+    let reversed = ' ';
+
+    for (let character of str) {
+        reversed = character + reversed;
+
+        if (reversed === str)
+
+        return true;
+
+        else ( reversed !== str)
+
+        return false;
+
+    }
+
+    reversed();
+
+}
+
 
 module.exports = palindrome;
+
+
+//What we know//
+//Take in a string 
+// If the string is the same as the reversed version of the string return strue else return fasle
+
+//take in the str
+// reverse the string
+//compare the orgianl string to the reversed string
+//if the strings match return
+//else return false.
+//you have to consider the 
+
+//Returning True or False
+// Boolean?
